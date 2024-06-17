@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navigation Bar</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #d9d9e0;
+      }
+
+      li {
+        float: left;
+        border-right: 1px solid black;
+      }
+
+      li:last-child {
+        border-right: none;
+      }
+      li:first-child {
+        border-right: none;
+      }
+
+      li a {
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 14px 16px;
+      }
+
+      #click {
+        padding-left: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li id="click">Click any of the following links</li>
+      <br />
+      <li><a href="#">Opens in New</a></li>
+      <li><a href="#">Opens in Self</a></li>
+      <li><a href="#">Opens in Parent</a></li>
+      <li><a href="#">Opens in Body</a></li>
+      <li><a href="#">Send email</a></li>
+    </ul>
+  </body>
+</html>

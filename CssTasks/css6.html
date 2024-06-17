@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSSTASK6</title>
+    <style>
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        width: 15%;
+      }
+
+      .btn1 {
+        width: 100%;
+        padding: 5px;
+        margin: 10px 0px;
+        font-size: 18px;
+        border: 2px solid #0080009c;
+        background-color: #0080009c;
+        color: white;
+      }
+
+      .btn2 {
+        background-color: red;
+        padding: 10px;
+        margin: 23px 5px 8px 3px;
+        font-weight: bold;
+        border-radius: 8px;
+        color: white;
+        border: 2px solid red;
+      }
+
+      .last {
+        background-color: #00000017;
+      }
+
+      a {
+        color: black;
+      }
+
+      p {
+        float: right;
+      }
+
+      .pw {
+        padding: 10px;
+        margin: 23px 5px 8px 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./user.jpg" alt="Reload image" center center />
+    <center>
+      <table cellspacing="3">
+        <form>
+          <tr>
+            <td>
+              <label><b>Username</b></label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" placeholder="Enter Username" size="60" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label><b>Password</b></label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="password" placeholder="Enter password" size="60" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><input class="btn1" type="submit" value="Login" /></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" checked /><span>Remember me</span></td>
+          </tr>
+
+          <tr class="last">
+            <td rowspan="2">
+              <input class="btn2" type="button" value="Cancel" />
+              <p class="pw">Forgot <a href="#">password?</a></p>
+            </td>
+          </tr>
+        </form>
+      </table>
+    </center>
+  </body>
+</html>
