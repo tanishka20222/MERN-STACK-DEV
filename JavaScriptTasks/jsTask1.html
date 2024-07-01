@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsTask1</title>
+</head>
+<body>
+    <script>
+        let num1 = prompt("Enter a number?");
+        let result = num1.toString().split('').reverse().join('');
+        
+        let enteredNumberH1 = document.createElement("h1");
+        enteredNumberH1.textContent = "You entered: " + num1;
+        
+        let reversedNumberH1 = document.createElement("h1");
+        reversedNumberH1.textContent = "The reversed number is: " + result;
+        
+        document.body.appendChild(enteredNumberH1);
+        document.body.appendChild(reversedNumberH1);
+    </script>
+</body>
+</html>

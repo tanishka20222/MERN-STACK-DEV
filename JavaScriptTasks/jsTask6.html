@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jsTask6</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      h1 {
+        font-family: "Alegreya", serif;
+      }
+
+      form {
+        background-color: rgb(224 216 216 / 28%);
+        margin: 32px 447px;
+        padding: 42px 26px;
+        box-shadow: 2px 2px 2px grey;
+      }
+
+      .forgetpw {
+        position: absolute;
+        top: 230px;
+        right: 420px;
+        margin: 80px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <center>
+        <table>
+          <h1 class="text-center">Instagram</h1>
+
+          <tr>
+            <td><label class="my-4" for="un">UserName</label></td>
+            <td>
+              <div class="input-group">
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="fa-solid fa-user"></i
+                ></span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Username"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                  id="fn"
+                  required
+                />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="pw">Password</label></td>
+            <td>
+              <div class="input-group">
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="fa-sharp fa-solid fa-lock"></i
+                ></span>
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Password"
+                  aria-label="Password"
+                  aria-describedby="basic-addon1"
+                  id="fn"
+                  required
+                />
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <div class="my-3">
+                <button
+                  class="btn btn-primary py-1 text-center"
+                  style="padding: 0px 185px"
+                  type="submit"
+                >
+                  Log in
+                </button>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <input type="checkbox" /><span>Remember me</span>
+              <span><a href="#" class="forgetpw">Forgot password?</a></span>
+            </td>
+          </tr>
+        </table>
+      </center>
+    </form>
+
+    <p class="text-center my-4">
+      Don't have an account! <a href="#">Sign up here</a>
+    </p>
+  </body>
+</html>
